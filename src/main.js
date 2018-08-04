@@ -4,6 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+import TestBlock from './components/TestBlock'
+
+import MasonaryLayout from './components/MasonaryLayout'
+
+Vue.component('test-block', TestBlock)
+
+Vue.use(MasonaryLayout)
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
